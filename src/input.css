@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#div1{
+    height: 500px;  
+}
+
+#division1{
+    margin-top: -150px;
+}
+
+#division1 h1{
+    -webkit-text-stroke: 1.5px black;
+}
+#division1 h2{
+    -webkit-text-stroke: 0.3px black;
+}
+
+
+@media screen and (min-width:640px) {
+    #div1{
+        width: 90% !important;
+        margin: 20px !important;
+        height: 300px !important;
+    }
+}
